@@ -9,13 +9,17 @@ namespace fr.matthiasdetoffoli.GlobalProjectCode.Classes
     public abstract class ASingleton<T> : ISingleton where T : ISingleton, new()
     {
         #region Fields
+        /// <summary>
+        /// Private instance of the singleton
+        /// </summary>
         protected static T mInstance;
         #endregion //Fields
 
         #region Properties
         /// <summary>
-        /// Unic instance of the singleton
+        /// public instance of the singleton
         /// </summary>
+        /// <remarks>it return the private instance mIntance</remarks>
         public static T instance
         {
             get
