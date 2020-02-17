@@ -14,4 +14,10 @@ Used for my managers, it has the method Init wich will be used for initialize my
 
 ### ASingleton
 
-Abstract class reprensenting singletons it take a parameter T wich have to be your singleton, it implement ISingleton interface. It create the instance at the first call of the property instance.
+Abstract class reprensenting singletons it take a parameter T wich have to be your singleton. 
+
+```C#
+public class MySingleton:ASingleton<MySingleton>
+```
+
+it implement ISingleton interface. It create the instance at the first call of the property instance.
