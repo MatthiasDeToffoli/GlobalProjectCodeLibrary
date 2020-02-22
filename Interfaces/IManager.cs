@@ -9,6 +9,11 @@
         /// Call after the Start in a chosen order for init elements
         /// </summary>
         void Init();
+
+        /// <summary>
+        /// Clear the Manager properties
+        /// </summary>
+        void Clear();
     }
 }
 

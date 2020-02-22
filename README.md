@@ -4,11 +4,11 @@ Library for C# projects, it's some classes I create all the time, when I work in
 ## Interfaces
 ### ISingleton
 
-It's an interface  used only to type the singletons in the class ASingleton, it not implement methods or properties.
+It's an interface defined singletons, it has an unique Id, a method for remove the instance of the singleton and another one for replace it.
 
 ### IManager
 
-Used for my managers, it has the method Init wich will be used for initialize my managers and control when they will be.
+Used for my managers, it has the method Init which will be used for initialize managers and control when they will be. And another clear for clear the managers.
 
 ## Classes
 
@@ -20,4 +20,4 @@ Abstract class reprensenting singletons it take a parameter T wich have to be yo
 public class MySingleton:ASingleton<MySingleton>
 ```
 
-it implement ISingleton interface. It create the instance at the first call of the property instance.
+it implement ISingleton interface. It create the instance at the first call of the property instance and set the unique Id in its constructor. This unique Id is set to empty string when the instance is removed.
