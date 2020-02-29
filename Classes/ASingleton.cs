@@ -7,7 +7,7 @@ namespace fr.matthiasdetoffoli.GlobalProjectCode.Classes
     /// Abstract class preparing the instance of the singleton
     /// </summary>
     /// <typeparam name="T">The new singleton</typeparam>
-    /// <remarks>see also <seealso cref="ISingleton"/></remarks>
+    /// <seealso cref="ISingleton"/>
     public abstract class ASingleton<T> : ISingleton where T : class, ISingleton, new()
     {
         #region Fields
