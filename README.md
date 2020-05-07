@@ -21,3 +21,7 @@ public class MySingleton:ASingleton<MySingleton>
 ```
 
 it implement ISingleton interface. It create the instance at the first call of the property instance and set the unique Id in its constructor. This unique Id is set to empty string when the instance is removed.
+
+___
+
+*<sub>Made with Visual studio Community 2019 and .Net Standard 2.1</sub>*
