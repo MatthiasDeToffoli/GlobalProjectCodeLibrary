@@ -24,4 +24,4 @@ it implement ISingleton interface. It create the instance at the first call of t
 
 ___
 
-*<sub>Made with Visual studio Community 2019 and .Net Standard 2.1</sub>*
+*<sub>Made with .Net Standard 2.1</sub>*
