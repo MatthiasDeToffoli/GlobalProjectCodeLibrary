@@ -5,6 +5,7 @@
     /// </summary>
     public interface IManager
     {
+        #region Methods
         /// <summary>
         /// Call after the Start in a chosen order for init elements
         /// </summary>
@@ -14,6 +15,7 @@
         /// Clear the Manager properties
         /// </summary>
         void Clear();
+        #endregion Methods
     }
 }
 

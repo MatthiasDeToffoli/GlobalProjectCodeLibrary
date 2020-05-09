@@ -15,7 +15,7 @@ namespace fr.matthiasdetoffoli.GlobalProjectCode.Classes
         /// Private instance of the singleton
         /// </summary>
         private static T mInstance;
-        #endregion //Fields
+        #endregion Fields
 
         #region Properties
         /// <summary>
@@ -43,7 +43,7 @@ namespace fr.matthiasdetoffoli.GlobalProjectCode.Classes
             get;
             private set;
         }
-        #endregion //Properties
+        #endregion Properties
 
         #region Constructors
         /// <summary>
@@ -53,7 +53,7 @@ namespace fr.matthiasdetoffoli.GlobalProjectCode.Classes
         {
             uniqueId = new Guid().ToString();
         }
-        #endregion //Constructors
+        #endregion Constructors
 
         #region Methods
         /// <summary>
@@ -103,6 +103,6 @@ namespace fr.matthiasdetoffoli.GlobalProjectCode.Classes
                 mInstance = null;
             }
         }
-        #endregion //Methods
+        #endregion Methods
     }
 }

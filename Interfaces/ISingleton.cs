@@ -12,7 +12,7 @@ namespace fr.matthiasdetoffoli.GlobalProjectCode.Interfaces
         /// The unique id of the singleton
         /// </summary>
         string uniqueId { get; }
-        #endregion //Properties
+        #endregion Properties
 
         #region Methods
         /// <summary>
@@ -25,6 +25,6 @@ namespace fr.matthiasdetoffoli.GlobalProjectCode.Interfaces
         /// remove the current instance of the singleton
         /// </summary>
         void Remove();
-        #endregion //Methods
+        #endregion Methods
     }
 }
