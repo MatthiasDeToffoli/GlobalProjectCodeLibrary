@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace fr.matthiasdetoffoli.GlobalProjectCode.Interfaces
+﻿namespace fr.matthiasdetoffoli.GlobalProjectCode.Interfaces
 {
     /// <summary>
     /// Singleton Interface
