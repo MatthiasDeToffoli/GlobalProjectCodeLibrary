@@ -7,7 +7,7 @@
     {
         #region Methods
         /// <summary>
-        /// Call after the Start in a chosen order for init elements
+        /// Call in a chosen order for init elements
         /// </summary>
         void Init();
 
