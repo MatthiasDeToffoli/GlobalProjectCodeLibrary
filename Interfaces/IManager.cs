@@ -1,4 +1,4 @@
-﻿namespace fr.matthiasdetoffoli.GlobalProjectCode.Interfaces
+﻿namespace Fr.Matthiasdetoffoli.GlobalProjectCode.Interfaces
 {
     /// <summary>
     /// Interface used for all Managers

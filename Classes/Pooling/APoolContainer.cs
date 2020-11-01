@@ -1,6 +1,6 @@
-﻿using fr.matthiasdetoffoli.GlobalProjectCode.Interfaces.Pooling.PoolElements;
+﻿using Fr.Matthiasdetoffoli.GlobalProjectCode.Interfaces.Pooling.PoolElements;
 
-namespace fr.matthiasdetoffoli.GlobalProjectCode.Classes.Pooling
+namespace Fr.Matthiasdetoffoli.GlobalProjectCode.Classes.Pooling
 {
     /// <summary>
     /// Parent of all pool Container

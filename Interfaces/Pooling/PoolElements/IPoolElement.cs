@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace fr.matthiasdetoffoli.GlobalProjectCode.Interfaces.Pooling.PoolElements
+namespace Fr.Matthiasdetoffoli.GlobalProjectCode.Interfaces.Pooling.PoolElements
 {
     /// <summary>
     /// Element used for init and create pool items

@@ -1,6 +1,6 @@
-﻿using fr.matthiasdetoffoli.GlobalProjectCode.Classes.Pooling;
+﻿using Fr.Matthiasdetoffoli.GlobalProjectCode.Classes.Pooling;
 
-namespace fr.matthiasdetoffoli.GlobalProjectCode.Interfaces.Pooling
+namespace Fr.Matthiasdetoffoli.GlobalProjectCode.Interfaces.Pooling
 {
     /// <summary>
     /// Interface of the Manager used for interact with the pool

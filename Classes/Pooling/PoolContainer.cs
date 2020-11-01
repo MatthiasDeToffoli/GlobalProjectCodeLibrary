@@ -1,8 +1,8 @@
-﻿using fr.matthiasdetoffoli.GlobalProjectCode.Interfaces.Pooling.PoolElements;
+﻿using Fr.Matthiasdetoffoli.GlobalProjectCode.Interfaces.Pooling.PoolElements;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace fr.matthiasdetoffoli.GlobalProjectCode.Classes.Pooling
+namespace Fr.Matthiasdetoffoli.GlobalProjectCode.Classes.Pooling
 {
     /// <summary>
     /// Dictionary contain all pool elements

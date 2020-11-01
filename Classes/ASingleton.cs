@@ -1,7 +1,7 @@
-﻿using fr.matthiasdetoffoli.GlobalProjectCode.Interfaces;
+﻿using Fr.Matthiasdetoffoli.GlobalProjectCode.Interfaces;
 using System;
 
-namespace fr.matthiasdetoffoli.GlobalProjectCode.Classes
+namespace Fr.Matthiasdetoffoli.GlobalProjectCode.Classes
 {
     /// <summary>
     /// Abstract class preparing the instance of the singleton

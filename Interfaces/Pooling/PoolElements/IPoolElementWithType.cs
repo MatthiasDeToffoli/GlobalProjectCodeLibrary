@@ -1,4 +1,4 @@
-﻿namespace fr.matthiasdetoffoli.GlobalProjectCode.Interfaces.Pooling.PoolElements
+﻿namespace Fr.Matthiasdetoffoli.GlobalProjectCode.Interfaces.Pooling.PoolElements
 {
     /// <summary>
     /// a  IPoolElement with a specific type
