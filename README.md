@@ -47,6 +47,10 @@ Abstract class which initialize the pool
 
 #### PoolContainer
 Container used for create and managed pool elements on the current execution.
+
+### Utils
+#### Extensions
+Contain all classes for adding extensions methods
 ___
 
 *<sub>Made with .Net Standard 2.1</sub>*
